@@ -10,7 +10,7 @@ import org.junit.Assert;
 public class GoogleStepDefinition {
     @Given("Kullanıcı google sayfasındadır")
     public void kullanıcıGoogleSayfasındadır() {
-        Driver.getDriver().get("https://www.google.com ");
+        Driver.getDriver().get("https://www.google.com/");
     }
 
     @When("Kullanıcı samsung kelşimesini arar")
